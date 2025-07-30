@@ -2,14 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Dashboard</title>
 </head>
 <body>
-  <h1>My Live Data Dashboard</h1>
-  <div id="dashboard"></div>
+  <div class="table-wrapper">
+    <h1>Telus x Loop Dashboard Data</h1>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="btn1" onclick="linkPublishedGoogleSheet()">🔄 Refresh Data</button>
+  </div>
+
   <script src="script.js"></script>
-  <script src="https://unpkg.com/tabletop@1.5.1/src/tabletop.js"></script>
 </body>
 </html>
