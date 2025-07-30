@@ -18,7 +18,7 @@
 body {
   background-color: var(--secondary-color);
   color: rgb(0, 0, 0);
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .heading{
@@ -33,9 +33,18 @@ body {
 
 h6{
   text-align: center;
-  margin-top: 57vh;
+  margin-top: 33%;
   opacity: 70%;
   color: #4a4a4a;
+}
+
+.under{
+  text-decoration: underline #00ff99 8px;
+  margin-left: 10px;
+}
+
+.s-h-1{
+  display: flex;
 }
 
 h1 {
