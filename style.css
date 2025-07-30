@@ -4,7 +4,7 @@
   --primary-color: #00ff99;
   --secondary-color: #ffffff;
   --light-bg: #000000;
-  --text-color: #ffffff;
+  --text-color: #000000;
   --font-main: 'Poppins', sans-serif;
   --border-radius: 1rem;
 }
@@ -71,7 +71,7 @@ th, td {
 
 th {
   background-color: var(--primary-color);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: 600;
 }
 
